@@ -10,7 +10,7 @@
 - [x] Adapter Pattern
 - [ ] Facade Pattern
 - [x] Singleton Pattern
-- [ ] Command Pattern
+- [x] Command Pattern
 - [ ] Chain Pattern
 
 ## Tips
