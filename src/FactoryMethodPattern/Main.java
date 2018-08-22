@@ -6,11 +6,11 @@ public class Main {
 
     public static void main(String[] args) {
         PizzaStore nyPizzaStore = new NYStylePizzaStore();
-        Pizza nyCheesePizza = nyPizzaStore.orderPizza(CHEESE);
-        Pizza nyVeggiePizza = nyPizzaStore.orderPizza(VEGGIE);
+        nyPizzaStore.orderPizza(CHEESE);
+        nyPizzaStore.orderPizza(VEGGIE);
 
         PizzaStore chicagoPizzaStore = new ChicagoStylePizzaStore();
-        Pizza cgCheesePizza = chicagoPizzaStore.orderPizza(CHEESE);
-        Pizza cgVeggiePizza = chicagoPizzaStore.orderPizza(VEGGIE);
+        chicagoPizzaStore.orderPizza(CHEESE);
+        chicagoPizzaStore.orderPizza(VEGGIE);
     }
 }

@@ -1,5 +1,11 @@
 package AdapterPattern;
 
+import AdapterPattern.adaptee.Turkey;
+import AdapterPattern.adaptee.WildTurkey;
+import AdapterPattern.adapter.TurkeyAdapter;
+import AdapterPattern.target.Duck;
+import AdapterPattern.target.MallardDuck;
+
 /**
  * 适配器模式
  * @author tanzhen

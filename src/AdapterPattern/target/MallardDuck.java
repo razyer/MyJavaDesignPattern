@@ -1,4 +1,6 @@
-package AdapterPattern;
+package AdapterPattern.target;
+
+import AdapterPattern.target.Duck;
 
 /**
  * @author tanzhen

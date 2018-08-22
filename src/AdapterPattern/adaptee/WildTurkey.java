@@ -1,4 +1,4 @@
-package AdapterPattern;
+package AdapterPattern.adaptee;
 
 /**
  * @author tanzhen
