@@ -3,14 +3,15 @@
 * Implement all the useful design patterns mentioned in book *"Head First Design Patterns"*.
 
 ## TODO List
-- [x] FactoryMethod Pattern
-- [x] AbstractFactory Pattern
 - [x] Observer Pattern
 - [x] Decorator Pattern
-- [x] Adapter Pattern
-- [ ] Facade Pattern
+- [x] FactoryMethod Pattern
+- [x] AbstractFactory Pattern
 - [x] Singleton Pattern
 - [x] Command Pattern
+- [x] Adapter Pattern
+- [x] Facade Pattern
+- [x] TemplateMethod Pattern 
 - [ ] Chain Pattern
 
 ## Tips
