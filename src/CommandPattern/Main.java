@@ -15,7 +15,7 @@ import CommandPattern.receiver.TV;
  */
 public class Main {
     public static void main(String[] args) {
-        SimpleRemoteControl rc = new SimpleRemoteControl(2);
+        SimpleRemoteControl rc = new SimpleRemoteControl(7);
         Light light = new Light();
         LightOnCommand lightOnCommand = new LightOnCommand(light);
         LightOffCommand lightOffCommand = new LightOffCommand(light);
@@ -32,6 +32,7 @@ public class Main {
         rc.onButtonWasPressed(1);
         rc.offButtonWasPressed(1);
         System.out.println("===============");
-        rc.undo();
+        rc.undoButtonWasPressed();
+        rc.onButtonWasPressed(5);
     }
 }
