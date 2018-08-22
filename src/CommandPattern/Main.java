@@ -1,5 +1,13 @@
 package CommandPattern;
 
+import CommandPattern.command.LightOffCommand;
+import CommandPattern.command.LightOnCommand;
+import CommandPattern.command.TVOffCommand;
+import CommandPattern.command.TVOnCommand;
+import CommandPattern.invoker.SimpleRemoteControl;
+import CommandPattern.receiver.Light;
+import CommandPattern.receiver.TV;
+
 /**
  * 命令模式
  * @author tanzhen

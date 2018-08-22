@@ -1,6 +1,6 @@
-package CommandPattern;
+package CommandPattern.invoker;
 
-import java.util.Arrays;
+import CommandPattern.command.Command;
 
 /**
  * @author tanzhen

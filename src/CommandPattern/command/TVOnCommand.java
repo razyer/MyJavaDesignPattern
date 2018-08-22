@@ -1,4 +1,6 @@
-package CommandPattern;
+package CommandPattern.command;
+
+import CommandPattern.receiver.TV;
 
 /**
  * @author tanzhen
