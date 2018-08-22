@@ -12,6 +12,8 @@
 - [x] Adapter Pattern
 - [x] Facade Pattern
 - [x] TemplateMethod Pattern 
+- [ ] Iterator Pattern
+- [x] State Pattern
 - [ ] Chain Pattern
 
 ## Tips
