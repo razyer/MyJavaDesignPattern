@@ -1,4 +1,4 @@
-# My Java Design Pattern
+# My Java Design Patterns
 ## Purpose
 * Implement all the useful design patterns mentioned in book *"Head First Design Patterns"*.
 
