@@ -13,6 +13,7 @@
 - [x] Facade Pattern
 - [x] TemplateMethod Pattern 
 - [ ] Iterator Pattern
+- [x] Composite Pattern
 - [x] State Pattern
 - [x] Chain of Responsibility Pattern
 
