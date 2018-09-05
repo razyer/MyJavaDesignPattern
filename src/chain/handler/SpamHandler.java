@@ -6,16 +6,16 @@ import chain.request.Request;
  * @author tanzhen
  * @date 2018/9/5
  */
-public class FanAbstractHandler extends AbstractHandler {
-    public FanAbstractHandler(AbstractHandler handler) {
-        super(handler);
+public class SpamHandler extends AbstractHandler {
+    public SpamHandler(AbstractHandler next) {
+        super(next);
     }
 
     @Override
     public void handleRequest(Request request) {
         if (request != null) {
-            if (Request.FAN_TYPE.equals(request.getType())) {
-                System.out.println("Fan-Handler handle the request");
+            if (Request.SPAM_TYPE.equals(request.getType())) {
+                System.out.println("Spam-Handler handle the request");
             } else {
                 next.handleRequest(request);
             }

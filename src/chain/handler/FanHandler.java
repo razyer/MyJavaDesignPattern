@@ -6,16 +6,16 @@ import chain.request.Request;
  * @author tanzhen
  * @date 2018/9/5
  */
-public class ComplaintAbstractHandler extends AbstractHandler {
-    public ComplaintAbstractHandler(AbstractHandler next) {
-        super(next);
+public class FanHandler extends AbstractHandler {
+    public FanHandler(AbstractHandler handler) {
+        super(handler);
     }
 
     @Override
     public void handleRequest(Request request) {
         if (request != null) {
-            if (Request.COMPLAINT_TYPE.equals(request.getType())) {
-                System.out.println("Complaint-Handler handle the request");
+            if (Request.FAN_TYPE.equals(request.getType())) {
+                System.out.println("Fan-Handler handle the request");
             } else {
                 next.handleRequest(request);
             }
