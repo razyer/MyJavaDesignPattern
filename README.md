@@ -14,7 +14,7 @@
 - [x] TemplateMethod Pattern 
 - [ ] Iterator Pattern
 - [x] State Pattern
-- [ ] Chain Pattern
+- [x] Chain of Responsibility Pattern
 
 ## Tips
 Every pattern will be tested in the correspond "Main" class.
