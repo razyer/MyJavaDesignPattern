@@ -17,6 +17,7 @@ public class FanHandler extends AbstractHandler {
             if (Request.FAN_TYPE.equals(request.getType())) {
                 System.out.println("Fan-Handler handle the request");
             } else {
+                System.out.print("Fan-Handler Skip -> ");
                 next.handleRequest(request);
             }
         }

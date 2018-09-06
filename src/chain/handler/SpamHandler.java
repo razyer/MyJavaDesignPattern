@@ -17,6 +17,7 @@ public class SpamHandler extends AbstractHandler {
             if (Request.SPAM_TYPE.equals(request.getType())) {
                 System.out.println("Spam-Handler handle the request");
             } else {
+                System.out.print("Spam-Handler Skip -> ");
                 next.handleRequest(request);
             }
         }

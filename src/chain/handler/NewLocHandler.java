@@ -17,6 +17,7 @@ public class NewLocHandler extends AbstractHandler {
             if (Request.NEW_LOCATION_TYPE.equals(request.getType())) {
                 System.out.println("New-Location-Handler handle the request");
             } else {
+                System.out.print("New-Location-Handler Skip -> ");
                 next.handleRequest(request);
             }
         }

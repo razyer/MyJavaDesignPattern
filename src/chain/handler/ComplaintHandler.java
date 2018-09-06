@@ -17,6 +17,7 @@ public class ComplaintHandler extends AbstractHandler {
             if (Request.COMPLAINT_TYPE.equals(request.getType())) {
                 System.out.println("Complaint-Handler handle the request");
             } else {
+                System.out.print("Complaint-Handler Skip -> ");
                 next.handleRequest(request);
             }
         }
