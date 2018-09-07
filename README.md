@@ -12,13 +12,14 @@ Implement all the useful design patterns mentioned in book *"Head First Design P
 - [x] Adapter Pattern
 - [x] Facade Pattern
 - [x] TemplateMethod Pattern 
-- [ ] Iterator Pattern
 - [x] Composite Pattern
 - [x] State Pattern
 - [x] Chain of Responsibility Pattern
 
 ## Tips
 Every pattern will be tested in the correspond "Main" class.
+
+## Finished on 2018/9/7
 
 
  
