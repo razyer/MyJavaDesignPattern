@@ -1,6 +1,6 @@
 # My Java Design Patterns
 ## Purpose
-Implement all the useful design patterns mentioned in book *"Head First Design Patterns"*.
+Implement all the useful design patterns mentioned in book **"Head First Design Patterns"**.
 
 ## TODO List
 - [x] Observer Pattern
