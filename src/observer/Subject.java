@@ -10,5 +10,5 @@ public interface Subject {
 
     void removeListener(Listener listener);
 
-    void notifyLisenters();
+    void notifyListeners();
 }

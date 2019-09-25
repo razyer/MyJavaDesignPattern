@@ -18,7 +18,7 @@ public class WeatherData implements Subject {
         this.temperature = temperature;
         this.humidity = humidity;
         this.pressure = pressure;
-        notifyLisenters();
+        notifyListeners();
     }
 
     public float getTemperature() {
@@ -61,7 +61,7 @@ public class WeatherData implements Subject {
     }
 
     @Override
-    public void notifyLisenters() {
+    public void notifyListeners() {
         if (listenerList.size() > 0) {
             for (Listener l : listenerList) {
                 l.update();
